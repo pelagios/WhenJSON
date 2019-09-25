@@ -22,7 +22,7 @@ Include the script file into the head of your HTML page:
 
 Create When objects from your data like so:
 
-```json
+```javascript
 var data = { 
   timespans: [
     { end: { in: 1680 }, start: { in: 300 }},
