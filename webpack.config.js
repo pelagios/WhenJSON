@@ -6,9 +6,16 @@ module.exports = {
   entry: {
     app: './src/when.js'
   },
+  module: {
+    rules: [
+      { test: /\.(js)$/, use: 'babel-loader' }
+    ]
+  },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Production'
+      title: 'Production',
+      template : './index.html',
+      inject: 'head'
     })
   ],
   output: {
@@ -16,6 +23,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     library: 'When',
     libraryTarget: 'umd',
+    libraryExport: 'default',
     umdNamedDefine: true
   }
 };
