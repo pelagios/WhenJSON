@@ -36,3 +36,13 @@ console.log(when.start);     // 300
 console.log(when.end);       // 1800
 console.log(when.intervals); // [[300, 1680], [1720, 1800]]
 ```
+
+## TODOs
+
+Lots of them...
+
+- Actually support the full range of the `when` spec
+- Return Date objects rather than year numbers. __Warning:__ JS Date is 
+  notoriously bad at handling BC dates. May need to go with [js-joda](https://js-joda.github.io/js-joda/)
+  perhaps?
+- ...
