@@ -25,9 +25,14 @@ Create When objects from your data like so:
 ```json
 var data = { 
   timespans: [
-    { end: { in: 1680 }, start: { in: 300 }}
+    { end: { in: 1680 }, start: { in: 300 }},
+    { end: { in: 1800 }, start: { in: 1720 }}
   ]
 };
 
 var when = new When(data);
+
+console.log(when.start);     // 300
+console.log(when.end);       // 1800
+console.log(when.intervals); // [[300, 1680], [1720, 1800]]
 ```
