@@ -45,4 +45,6 @@ Lots of them...
 - Return Date objects rather than year numbers. __Warning:__ JS Date is 
   notoriously bad at handling BC dates. May need to go with [js-joda](https://js-joda.github.io/js-joda/)
   perhaps?
+- Resolvable periods? (Would be an async operation, and should probably be available as a bulk option
+  only, for WhenCollections?)
 - ...
