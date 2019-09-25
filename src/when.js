@@ -43,7 +43,7 @@ export default class When {
 
   get intervals() {
     // TODO should we normalize intervals?
-    return this._timespans.map(ts => [ ts.start, ts.end ]);
+    return this._timespans.map(ts => [ ts.start.in, ts.end.in ]);
   }
 
 }

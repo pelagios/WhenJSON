@@ -9,7 +9,7 @@ describe("GeoJSON-T Test file", function() {
       const features = require('../data/100features.json').features;
       features.map(f => {
         const when = new When(f.when);
-        console.log(`From ${when.start} to ${when.end} (${when.intervals.length} timespans)`);
+        console.log(`From ${when.start} to ${when.end} (${JSON.stringify(when.intervals)})`);
       });
     });
 
