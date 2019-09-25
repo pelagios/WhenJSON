@@ -1,0 +1,22 @@
+[ 
+  { "timespans": [{ "start": "1890", "end": "1900" }]},
+  { "timespans": [{ "end": { "in": 1680 }, "start": { "in": 300 }}] },
+  { 
+    "timespans": [
+      { "start": {
+          "label": "A.D. 201",
+          "in": { "year": "0201" } },
+        "end": {
+          "label": "A.D. 410",
+          "in": { "year": "0410" } }
+      }
+    ],
+    "periods": [
+      {
+        "name": "Late Roman",
+        "uri": "https://test.perio.do/#/p/Canonical/periodCollections/p0gjgrs/?show_period=p0gjgrsr3qh"
+      }
+    ],
+    "text": "...from A.D. 201 to A.D.410..."
+  }    
+]

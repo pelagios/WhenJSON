@@ -1,0 +1,22 @@
+{
+  "name": "json-when-spec",
+  "version": "0.0.1",
+  "description": "A parser for the JSON 'when' object specification",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --require @babel/register"
+  },
+  "author": "The Webmaps-T hackathon team",
+  "license": "BSD-3-Clause",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.6.2",
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/register": "^7.6.2",
+    "@babel/polyfill": "^7.6.0",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "nodemon": "^1.19.2"
+  }
+}
